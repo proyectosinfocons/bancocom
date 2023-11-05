@@ -1,0 +1,2 @@
+INSERT INTO USUARIOS (id, cellphone, name, lastName, username, password) VALUES (1, '1234567890', 'Juan', 'Perez', 'juanperez', 'password123456');
+-- Añade aquí más usuarios si es necesario.
