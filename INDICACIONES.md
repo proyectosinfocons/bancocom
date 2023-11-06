@@ -24,11 +24,11 @@ Para ejecutar este proyecto se necesita tener instalado:
 2. Navegue a la raíz del proyecto donde se encuentra el `Dockerfile`.
 3. Construya la imagen de Docker con el siguiente comando:
    ```bash
-   docker build -t api-usuarios-posts .
+   docker build -t bancocom .
 4. Una vez construida la imagen, ejecute un contenedor en esa imagen:
 
     ```bash
-   docker run -p 8080:8080 api-usuarios-posts
+   docker run -p 8080:8080 bancocom
 
 5. La aplicación ahora estará disponible en `localhost:8080`.
 
